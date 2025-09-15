@@ -86,7 +86,7 @@ function newGame() {
     prevGuess = [];
     numGuess = 1;
     guessesSlot.innerHTML = "";
-    remaining.innerHTML = `${11 - numGuess}`;
+    remaining.innerHTML = `${06 - numGuess}`;
     userInput.removeAttribute("disabled");
     startOver.removeChild(p);
     lowOrHi.innerHTML = "";
